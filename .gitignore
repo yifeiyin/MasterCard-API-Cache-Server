@@ -1,0 +1,18 @@
+### Secrets ###
+
+### macOS ###
+.DS_Store
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+
+### VirtualEnv ###
+env/*
+
+### Config ###
+config.py
+
+### License ###
+*.p12
