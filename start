@@ -1,0 +1,12 @@
+# !bin/zsh
+
+[ -z "$PREFERRED_TERMINAL" ] && PREFERRED_TERMINAL="iTerm2"
+PROJECT_ROOT=~/Developer/mastercard-api-server/
+
+
+ttab \
+    -a $PREFERRED_TERMINAL \
+    -w \
+    -d $PROJECT_ROOT \
+    -t 'MasterCard API Cache Server' \
+    "source ./env/bin/activate && python main.py"
