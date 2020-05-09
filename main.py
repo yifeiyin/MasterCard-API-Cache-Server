@@ -16,7 +16,7 @@ from config import Config
 
 
 app = bottle.Bottle()
-app.Config.update({
+app.config.update({
     'autojson': True,
 })
 
